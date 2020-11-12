@@ -11,6 +11,40 @@
    width: 100%;
  }
 
+.App{
+  position: relative;
+  width: 100%;
+}
+
+.logo{
+  width: 100%
+}
+
+ ul{
+   list-style: none;
+  padding-inline-start: 0px
+  ;
+ }
+
+ ul li{
+   display: inline-block;
+   width: 50%;
+   text-align: center;
+ }
+
+ ul li a{
+   text-decoration: none;
+   color:#FFCB05;
+ }
+
+ .menu{
+   background-color: #3860AA;
+   position: fixed;
+   bottom: 0;
+   width: 100%;
+  font-weight: 600
+ }
+
 
 
 

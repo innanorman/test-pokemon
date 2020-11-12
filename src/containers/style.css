@@ -1,0 +1,60 @@
+*{
+  box-sizing: border-box;
+}
+
+.pokemon-list{
+  padding: 16px 16px 40px 16px;
+}
+
+.pokemon-details{
+  padding: 16px;
+}
+
+.pokemon-details .title{
+  text-align: center;
+}
+
+.list{
+  border-radius: 8px;
+  border: 1px solid #888;
+  padding: 8px 10px;
+  margin-bottom: 8px;
+
+}
+
+.title{
+  font-size: 18px;
+}
+.name-pokemon{
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.text-name{
+  font-size: 14px;
+  width:80%;
+  display: inline-block;
+  text-transform: uppercase;
+}
+
+.button-detail{
+  width: 20%;
+  display: inline-block;
+}
+
+.pokemon-details-info{
+  display: flex;
+  flex-direction: column;
+}
+
+.pokemon-image{
+  align-self: center;
+}
+
+.type-section{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  border-bottom: 1px solid black;
+  padding: 8px 0px;
+}
