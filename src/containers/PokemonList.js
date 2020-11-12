@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import axios from 'axios';
 import {Link} from "react-router-dom"
+import LoadingGif from '../images/loading.gif';
 
 
 const url = "https://pokeapi.co/api/v2/pokemon";

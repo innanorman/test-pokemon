@@ -55,7 +55,7 @@ const Pokemon = (props) => {
       return (
         <div className="pokemon-details-info">
           <img src={front_default} width={200} class="pokemon-image" />
-          <button onClick={() => catchPokemon(pokemonDetail)}>Catch</button>
+          <button onClick={() => catchPokemon(pokemonDetail)}>CATCH</button>
 
           <div className="type-section">
             <p>Type</p>

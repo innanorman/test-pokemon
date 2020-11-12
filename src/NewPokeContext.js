@@ -1,5 +1,5 @@
 import React, { createContext, useReducer } from 'react';
-import { CATCH_POKEMON } from './types';
+import { CATCH_POKEMONS} from './types';
 import useNewPokeReducer from './useNewPokeReducers'; 
 const NewPokeContext = createContext({});
 
@@ -10,7 +10,7 @@ const NewPokeProvider = (props) => {
   const [state, dispatch] = useReducer(useNewPokeReducer, initialState)
 
   const catchPokemon = (pokemon) => {
-    dispatch({type: CATCH_POKEMON, myPokemonList: pokemon})
+    dispatch({type: CATCH_POKEMONS, myPokemonList: pokemon})
   }
 
   return (
